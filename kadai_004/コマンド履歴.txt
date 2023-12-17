@@ -1,0 +1,17 @@
+Steven@Stevens-MacBook-Pro Terakoya % mkdir git_challenge
+Steven@Stevens-MacBook-Pro Terakoya % cd git_challenge 
+Steven@Stevens-MacBook-Pro git_challenge % git init
+Initialized empty Git repository in /Users/Steven/Projects/Terakoya/git_challenge/.git/
+Steven@Stevens-MacBook-Pro git_challenge % echo "Hello, world\!" >> hello_world.txt
+Steven@Stevens-MacBook-Pro git_challenge % git add .
+Steven@Stevens-MacBook-Pro git_challenge % git commit -m "hello_world.txtを追加"
+[main (root-commit) 751f445] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+Steven@Stevens-MacBook-Pro git_challenge % git add .
+Steven@Stevens-MacBook-Pro git_challenge % git commit -m "日本語訳を追記"
+[main 3460127] 日本語訳を追記
+ 1 file changed, 1 insertion(+)
+Steven@Stevens-MacBook-Pro git_challenge % git log --oneline
+3460127 (HEAD -> main) 日本語訳を追記
+751f445 hello_world.txtを追加
